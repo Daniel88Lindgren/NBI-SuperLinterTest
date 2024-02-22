@@ -1,4 +1,4 @@
-name: Superlinter
+name: superlinter
 
 on: push
 
@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         
-      - name: Run Super-Linter
+      - name: Run supelinter
         uses: github/super-linter@v4
         env:
         
